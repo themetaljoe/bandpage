@@ -1,8 +1,53 @@
+@font-face {
+  font-family: 'heavyweightregular';
+  src: url('/heavywei-webfont.woff2') format('woff2'),
+       url('/heavywei-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
+  font-size: 16px;
+  line-height: 1em;
   background: url('./dark-bg.jpg');
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: black;
+  background-attachment: fixed;
   color: white;
+}
+.mask{
+  background-color: rgba(0, 0, 0, .8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.an-event{
+  border-top: 1px solid #FFF59D;
+  padding: 10px 0 10px 0;
+}
+.events{
+  line-height: 16px;
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+  font-family: 'heavyweightregular';
+}
+.an-event div{
+  padding-top: 10px;
+  line-height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  color: #B0BEC5;
+}
+.events h1{
+  margin-bottom: 20px;
+  font-family: 'heavyweightregular';
+  color: #FFF59D;
 }
