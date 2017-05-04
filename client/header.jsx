@@ -21,7 +21,7 @@ export default class Header extends React.Component {
         <div className="logo">  
           <img src="logo.png" />    
         </div>
-        <h1 className='title-header'>WE KICK ASS!</h1>
+        <h1 className='title-header'>New EP out Soon</h1>
             <div className="icons">
         {
           this.state.socialIcons.map((icon) => (

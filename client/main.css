@@ -22,7 +22,7 @@ body{
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: url('./dark-bg.jpg');
+  background: url('./show-bg.jpg');
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ body{
   line-height: 20px;
   display: inline-block;
   margin-right: 10px;
-  color: #B0BEC5;
+  color: white;
 }
 .events h1, .images h1, .title-header{
   margin-bottom: 20px;
