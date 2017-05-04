@@ -24,19 +24,27 @@ body{
   z-index: -1;
   background: url('./dark-bg.jpg');
   background-position: top center;
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .an-event{
   border-top: 1px solid #FFF59D;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 20px 0;
+}
+
+.an-event:hover{
+  background-color: rgba(0, 0, 0, 2);
+}
+.an-event div:hover{
+  color: white !important;
 }
 .events{
   line-height: 16px;
   padding: 20px;
   width: 80%;
   margin: 10px auto;
+  text-shadow: 0 0 20px black, 0 0 20px black, 0 0 20px black;
   font-family: 'heavyweightregular';
 }
 .an-event div{
@@ -47,9 +55,13 @@ body{
   color: #B0BEC5;
 }
 .events h1, .images h1, .title-header{
-  margin-bottom: 20px;
   font-family: 'heavyweightregular';
   color: #FFF59D;
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+}
+.images h1{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #FFF59D;
 }
 .title-header{
   font-size: 54px;
@@ -63,7 +75,9 @@ body{
   margin: 10px auto 10px auto;
 }
 .an-image {
-  margin: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
   display: inline-block;
   width: 160px;
   height: 160px;
@@ -71,13 +85,44 @@ body{
 .an-image img{
   width: 100%;
   height: 100%;
+  position: relative;
+  transition: 1s ease-in-out;
+  z-index: 2;
 }
+.an-image img:hover{
+  box-shadow: 0 0 20px white;
+}
+.gradient{
+  background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgb(0, 0, 0) 4%,rgba(0, 0, 0, 0.42) 47%,rgba(0, 0, 0, 0.6) 56%,rgb(0, 0, 0) 98%,rgba(0, 0, 0, 0.98) 100%);
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  background-color: transparent;
+}
+
 
 @media only screen and (max-width: 500px) {
   .logo img{
     width: 100%;
   }
   .logo{
-    padding: 5px;
+    padding: 5px !important;
+  }
+  iframe.SpotifyPlayer{
+    margin-top: 10px !important;
+    width: 100% !important;
+  }
+  div.images{
+    width: 100% !important;
+  }
+  .an-image{
+    width: 140px;
+    height: 140px;
+  }
+  .events{
+    width: 100% !important;
   }
 }
