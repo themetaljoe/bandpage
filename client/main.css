@@ -1,1 +1,8 @@
-/* CSS declarations go here */
+body{
+  background: url('./dark-bg.jpg');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+}
