@@ -1,2 +1,17 @@
 
+body{
+  background: url('./dark-bg.jpg');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+}
+.logo img{
+    position: absolute;
+    top: 0; bottom: 40; left: 0; right:0;
+    margin: auto;
+    opacity: .7;
+}
+
 
