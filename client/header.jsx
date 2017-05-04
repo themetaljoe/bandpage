@@ -16,11 +16,12 @@ export default class Header extends React.Component {
     }
   }
   render() {
-    return (
+    return (  
       <div>
         <div className="logo">  
           <img src="logo.png" />    
         </div>
+        <h1 className='title-header'>WE KICK ASS!</h1>
             <div className="icons">
         {
           this.state.socialIcons.map((icon) => (

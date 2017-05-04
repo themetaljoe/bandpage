@@ -9,5 +9,12 @@ Meteor.methods({
         resolve({err, res});
       });
     });
+  },
+  getImages() {
+    var options = {
+      uri: 'https://www.instagram.com/carrythestorm/media/?min_id=1045341392067624850_3108326',
+      json: true,
+    };
+    return rp.get(options);
   }
 });

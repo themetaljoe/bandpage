@@ -30,7 +30,7 @@ export default class events extends React.Component {
             console.log(event)
             return (
               <div className='an-event'>
-                <a href={`https://www.facebook.com/carrythestorm/posts/${event.id}`}>
+                <a href={`https://www.facebook.com/${event.id}`}>
                   <div className='message'>
                     {
                       moment(event.created_time).format('MMM Do')
