@@ -15,6 +15,23 @@ body{
 }
 .logo{
     text-align: center;
+    padding: 40px;
+}
+.social-icon{
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  width: 76px;
+  box-sizing: border-box; 
+}
+.social-icon a{
+  background-color: #545454;
 }
 
-
+.social-icon span{
+  font-size: 2.1rem !important;
+}
+.icons{
+  width: 304px;
+  margin: 0 auto;
+}
