@@ -12,6 +12,8 @@ export default class Header extends React.Component {
         name: 'instagram', href: 'https://www.instagram.com/carrythestorm/'
       },{ 
         name: 'youtube', href: 'https://www.youtube.com/channel/UCe1IFN0qfZcBT4DDuugdKdw'
+      },{
+        name: 'music', href: 'https://itunes.apple.com/us/artist/carry-the-storm/id412986445'
       }]
     }
   }

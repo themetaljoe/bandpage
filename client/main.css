@@ -15,7 +15,7 @@ body{
   color: white;
 }
 .mask{
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .1);
   position: fixed;
   top: 0;
   left: 0;
@@ -93,7 +93,7 @@ body{
   box-shadow: 0 0 20px white;
 }
 .gradient{
-  background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgb(0, 0, 0) 4%,rgba(0, 0, 0, 0.42) 47%,rgba(0, 0, 0, 0.6) 56%,rgb(0, 0, 0) 98%,rgba(0, 0, 0, 0.98) 100%);
+
   position: fixed;
   z-index: -1;
   width: 100%;
