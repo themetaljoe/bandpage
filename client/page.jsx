@@ -3,6 +3,7 @@ import Header from './header';
 import Events from './events';
 import Images from './images';
 import SpotifyPlayer from 'react-spotify-player';
+import Contact from './contact';
 
 // size may also be a plain string using the presets 'large' or 'compact'
 const size = {
@@ -29,6 +30,7 @@ export default class Home extends React.Component {
           />
           <Images />
           <Events />
+          <Contact />
         </div>
       </div>
     );
