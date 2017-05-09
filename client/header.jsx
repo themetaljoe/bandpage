@@ -15,7 +15,7 @@ export default class Header extends React.Component {
       },{
         name: 'music', href: 'https://itunes.apple.com/us/artist/carry-the-storm/id412986445'
       },{
-        name: 'paper-plane', href: ' mailto:carrythestorm@yahoo.com'
+        name: 'paper-plane', href: ' mailto:carrythestormbooking@gmail.com'
       }]
     }
   }
